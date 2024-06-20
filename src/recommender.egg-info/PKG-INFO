@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: recommender
+Version: 0.0.0
+Summary: a python package for a movie recommendation system
+Home-page: https://github.com/AdityaSanyal1996/Movie_Recommendation
+Author: AdityaSanyal1996
+Author-email: adityasanyal1996@gmail.com
+License-File: LICENSE
+
+# Movie Recommender System

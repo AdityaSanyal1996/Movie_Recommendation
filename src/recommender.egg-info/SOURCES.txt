@@ -1,0 +1,16 @@
+LICENSE
+README.md
+setup.py
+src/recommender/__init__.py
+src/recommender.egg-info/PKG-INFO
+src/recommender.egg-info/SOURCES.txt
+src/recommender.egg-info/dependency_links.txt
+src/recommender.egg-info/top_level.txt
+src/recommender/components/__init__.py
+src/recommender/config/__init__.py
+src/recommender/config/configuration.py
+src/recommender/constants/__init__.py
+src/recommender/entity/__init__.py
+src/recommender/pipeline/__init__.py
+src/recommender/utils/__init__.py
+src/recommender/utils/common.py
