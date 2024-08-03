@@ -7,7 +7,7 @@ matplotlib
 Flask
 Flask-Cors
 pyYAML
-ensure==1.0.2
+ensure
 python-box==7.2.0
 types-pyYAML
 joblib
