@@ -9,3 +9,7 @@ data_validation:
   status_file : artifacts/data_validation/status.txt
   local_data_file : artifacts/data_ingestion/netflix_dataset.csv
 
+data_transformation:
+  root_dir : artifacts/data_transformation
+  local_data_file : artifacts/data_ingestion/netflix_dataset.csv
+  transformed_data_file : artifacts/data_transformation/transformed_data.csv
