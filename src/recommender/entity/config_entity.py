@@ -21,3 +21,10 @@ class DataTransformationConfig:
     root_dir: Path
     local_data_file: Path
     transformed_data_file: Path
+
+#Model Training
+@dataclass
+class ModelTrainingConfig:
+    root_dir: Path
+    transformed_data_file: Path
+    tokenized_data: Path

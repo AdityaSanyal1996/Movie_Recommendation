@@ -2,6 +2,7 @@ from recommender.constants import *
 from recommender.entity.config_entity import DataIngestionConfig
 from recommender.entity.config_entity import DataValidationConfig
 from recommender.entity.config_entity import DataTransformationConfig
+from recommender.entity.config_entity import ModelTrainingConfig
 from recommender.utils.common import read_yaml, create_directories
 
 class ConfigurationManager:
@@ -48,3 +49,12 @@ class ConfigurationManager:
         )
         return data_transformation_config
         
+    def get_model_training_config(self)->ModelTrainingConfig:
+        config = self.config.model_inference
+        create_directories([config.root_dir])
+        model_training_config = ModelTrainingConfig(
+            root_dir = config.root_dir,
+            transformed_data_file = config.transformed_data_file,
+            tokenized_data = config.tokenized_data
+        )
+        return model_training_config    

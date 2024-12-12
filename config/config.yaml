@@ -13,3 +13,9 @@ data_transformation:
   root_dir : artifacts/data_transformation
   local_data_file : artifacts/data_ingestion/netflix_dataset.csv
   transformed_data_file : artifacts/data_transformation/transformed_data.csv
+
+model_inference:
+  root_dir: artifacts/model_inference
+  transformed_data_file: artifacts/data_transformation/transformed_data.csv
+  tokenized_data: artifacts/model_inference/similarities.csv
+  

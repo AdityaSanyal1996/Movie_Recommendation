@@ -11,4 +11,5 @@ ensure
 python-box==7.2.0
 types-pyYAML
 joblib
+streamlit>=1.36.0
 -e . 
